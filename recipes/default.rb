@@ -36,7 +36,7 @@ script "install-pkgconfig" do
   code <<-EOH
     cd /usr/local/src
     tar xzf #{Chef::Config[:file_cache_path]}/pkg-config-#{version}.tar.gz
-    cd icu/source
+    cd pkg-config-#{version}
     ./configure --prefix=#{prefix}
     make
     make install
