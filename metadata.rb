@@ -11,3 +11,6 @@ version          '0.1.0'
 end
 
 depends 'build-essential'
+
+source_url 'https://github.com/gotyoooo/chef-pkgconfig'
+issues_url 'https://github.com/gotyoooo/chef-pkgconfig/issues'
